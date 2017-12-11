@@ -1,0 +1,668 @@
+desc: --time-unit=B
+cmd: ./bitmap
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=72712
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=101824
+mem_heap_B=101624
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=132928
+mem_heap_B=132472
+mem_heap_extra_B=456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=164032
+mem_heap_B=163320
+mem_heap_extra_B=712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=195136
+mem_heap_B=194168
+mem_heap_extra_B=968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=226240
+mem_heap_B=225016
+mem_heap_extra_B=1224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=267064
+mem_heap_B=265504
+mem_heap_extra_B=1560
+mem_stacks_B=0
+heap_tree=detailed
+n5: 265504 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 179304 0x40092A: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:118)
+  n0: 179304 0x4007BC: main (bitmap.C:68)
+ n1: 72704 0x4EBAA5E: ??? (in /usr/lib64/libstdc++.so.6.0.22)
+  n1: 72704 0x40100D8: call_init.part.0 (in /usr/lib64/ld-2.23.so)
+   n1: 72704 0x40101E9: _dl_init (in /usr/lib64/ld-2.23.so)
+    n0: 72704 0x4000C38: ??? (in /usr/lib64/ld-2.23.so)
+ n1: 8192 0x5222353: _IO_file_doallocate (in /usr/lib64/libc-2.23.so)
+  n2: 8192 0x52304F2: _IO_doallocbuf (in /usr/lib64/libc-2.23.so)
+   n1: 4096 0x522E09A: _IO_file_xsgetn (in /usr/lib64/libc-2.23.so)
+    n1: 4096 0x5223367: fread (in /usr/lib64/libc-2.23.so)
+     n1: 4096 0x400848: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:103)
+      n0: 4096 0x4007BC: main (bitmap.C:68)
+   n1: 4096 0x522F846: _IO_file_overflow@@GLIBC_2.2.5 (in /usr/lib64/libc-2.23.so)
+    n1: 4096 0x522E283: _IO_file_xsputn@@GLIBC_2.2.5 (in /usr/lib64/libc-2.23.so)
+     n1: 4096 0x5223894: fwrite (in /usr/lib64/libc-2.23.so)
+      n1: 4096 0x400868: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:104)
+       n0: 4096 0x4007BC: main (bitmap.C:68)
+ n1: 4200 0x4008BD: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:109)
+  n0: 4200 0x4007BC: main (bitmap.C:68)
+ n0: 1104 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=298168
+mem_heap_B=296352
+mem_heap_extra_B=1816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=329272
+mem_heap_B=327200
+mem_heap_extra_B=2072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=360376
+mem_heap_B=358048
+mem_heap_extra_B=2328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=391480
+mem_heap_B=388896
+mem_heap_extra_B=2584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=422584
+mem_heap_B=419744
+mem_heap_extra_B=2840
+mem_stacks_B=0
+heap_tree=detailed
+n4: 419744 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 333544 0x40092A: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:118)
+  n0: 333544 0x4007BC: main (bitmap.C:68)
+ n1: 72704 0x4EBAA5E: ??? (in /usr/lib64/libstdc++.so.6.0.22)
+  n1: 72704 0x40100D8: call_init.part.0 (in /usr/lib64/ld-2.23.so)
+   n1: 72704 0x40101E9: _dl_init (in /usr/lib64/ld-2.23.so)
+    n0: 72704 0x4000C38: ??? (in /usr/lib64/ld-2.23.so)
+ n1: 8192 0x5222353: _IO_file_doallocate (in /usr/lib64/libc-2.23.so)
+  n1: 8192 0x52304F2: _IO_doallocbuf (in /usr/lib64/libc-2.23.so)
+   n0: 8192 in 2 places, all below massif's threshold (1.00%)
+ n0: 5304 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=453688
+mem_heap_B=450592
+mem_heap_extra_B=3096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=484792
+mem_heap_B=481440
+mem_heap_extra_B=3352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=515896
+mem_heap_B=512288
+mem_heap_extra_B=3608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=547000
+mem_heap_B=543136
+mem_heap_extra_B=3864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=578104
+mem_heap_B=573984
+mem_heap_extra_B=4120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=609208
+mem_heap_B=604832
+mem_heap_extra_B=4376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=640312
+mem_heap_B=635680
+mem_heap_extra_B=4632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=671416
+mem_heap_B=666528
+mem_heap_extra_B=4888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=702520
+mem_heap_B=697376
+mem_heap_extra_B=5144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=733624
+mem_heap_B=728224
+mem_heap_extra_B=5400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=764728
+mem_heap_B=759072
+mem_heap_extra_B=5656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=795832
+mem_heap_B=789920
+mem_heap_extra_B=5912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=850264
+mem_heap_B=843904
+mem_heap_extra_B=6360
+mem_stacks_B=0
+heap_tree=detailed
+n3: 843904 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 757704 0x40092A: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:118)
+  n0: 757704 0x4007BC: main (bitmap.C:68)
+ n1: 72704 0x4EBAA5E: ??? (in /usr/lib64/libstdc++.so.6.0.22)
+  n1: 72704 0x40100D8: call_init.part.0 (in /usr/lib64/ld-2.23.so)
+   n1: 72704 0x40101E9: _dl_init (in /usr/lib64/ld-2.23.so)
+    n0: 72704 0x4000C38: ??? (in /usr/lib64/ld-2.23.so)
+ n0: 13496 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=881368
+mem_heap_B=874752
+mem_heap_extra_B=6616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=912472
+mem_heap_B=905600
+mem_heap_extra_B=6872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=943576
+mem_heap_B=936448
+mem_heap_extra_B=7128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=974680
+mem_heap_B=967296
+mem_heap_extra_B=7384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1005784
+mem_heap_B=998144
+mem_heap_extra_B=7640
+mem_stacks_B=0
+heap_tree=detailed
+n3: 998144 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 911944 0x40092A: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:118)
+  n0: 911944 0x4007BC: main (bitmap.C:68)
+ n1: 72704 0x4EBAA5E: ??? (in /usr/lib64/libstdc++.so.6.0.22)
+  n1: 72704 0x40100D8: call_init.part.0 (in /usr/lib64/ld-2.23.so)
+   n1: 72704 0x40101E9: _dl_init (in /usr/lib64/ld-2.23.so)
+    n0: 72704 0x4000C38: ??? (in /usr/lib64/ld-2.23.so)
+ n0: 13496 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=1036888
+mem_heap_B=1028992
+mem_heap_extra_B=7896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1067992
+mem_heap_B=1059840
+mem_heap_extra_B=8152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1112688
+mem_heap_B=1104180
+mem_heap_extra_B=8508
+mem_stacks_B=0
+heap_tree=peak
+n4: 1104180 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1012200 0x40092A: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:118)
+  n0: 1012200 0x4007BC: main (bitmap.C:68)
+ n1: 72704 0x4EBAA5E: ??? (in /usr/lib64/libstdc++.so.6.0.22)
+  n1: 72704 0x40100D8: call_init.part.0 (in /usr/lib64/ld-2.23.so)
+   n1: 72704 0x40101E9: _dl_init (in /usr/lib64/ld-2.23.so)
+    n0: 72704 0x4000C38: ??? (in /usr/lib64/ld-2.23.so)
+ n1: 12288 0x5222353: _IO_file_doallocate (in /usr/lib64/libc-2.23.so)
+  n1: 12288 0x52304F2: _IO_doallocbuf (in /usr/lib64/libc-2.23.so)
+   n0: 12288 in 2 places, all below massif's threshold (1.00%)
+ n0: 6988 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=1161272
+mem_heap_B=1055984
+mem_heap_extra_B=8120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1192376
+mem_heap_B=1025136
+mem_heap_extra_B=7864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1223480
+mem_heap_B=994288
+mem_heap_extra_B=7608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1254584
+mem_heap_B=963440
+mem_heap_extra_B=7352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1285688
+mem_heap_B=932592
+mem_heap_extra_B=7096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1316792
+mem_heap_B=901744
+mem_heap_extra_B=6840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1347896
+mem_heap_B=870896
+mem_heap_extra_B=6584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1379000
+mem_heap_B=840048
+mem_heap_extra_B=6328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1410104
+mem_heap_B=809200
+mem_heap_extra_B=6072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1441208
+mem_heap_B=778352
+mem_heap_extra_B=5816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1472312
+mem_heap_B=747504
+mem_heap_extra_B=5560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1503416
+mem_heap_B=716656
+mem_heap_extra_B=5304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1534520
+mem_heap_B=685808
+mem_heap_extra_B=5048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1565624
+mem_heap_B=654960
+mem_heap_extra_B=4792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1596728
+mem_heap_B=624112
+mem_heap_extra_B=4536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1627832
+mem_heap_B=593264
+mem_heap_extra_B=4280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1656992
+mem_heap_B=564344
+mem_heap_extra_B=4040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1686152
+mem_heap_B=535424
+mem_heap_extra_B=3800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1715312
+mem_heap_B=506504
+mem_heap_extra_B=3560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1744472
+mem_heap_B=477584
+mem_heap_extra_B=3320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1773632
+mem_heap_B=448664
+mem_heap_extra_B=3080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1802792
+mem_heap_B=419744
+mem_heap_extra_B=2840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1831952
+mem_heap_B=390824
+mem_heap_extra_B=2600
+mem_stacks_B=0
+heap_tree=detailed
+n5: 390824 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 304624 0x40092A: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:118)
+  n0: 304624 0x4007BC: main (bitmap.C:68)
+ n1: 72704 0x4EBAA5E: ??? (in /usr/lib64/libstdc++.so.6.0.22)
+  n1: 72704 0x40100D8: call_init.part.0 (in /usr/lib64/ld-2.23.so)
+   n1: 72704 0x40101E9: _dl_init (in /usr/lib64/ld-2.23.so)
+    n0: 72704 0x4000C38: ??? (in /usr/lib64/ld-2.23.so)
+ n1: 8192 0x5222353: _IO_file_doallocate (in /usr/lib64/libc-2.23.so)
+  n2: 8192 0x52304F2: _IO_doallocbuf (in /usr/lib64/libc-2.23.so)
+   n1: 4096 0x522E09A: _IO_file_xsgetn (in /usr/lib64/libc-2.23.so)
+    n2: 4096 0x5223367: fread (in /usr/lib64/libc-2.23.so)
+     n1: 4096 0x400848: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:103)
+      n0: 4096 0x4007BC: main (bitmap.C:68)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n1: 4096 0x522F846: _IO_file_overflow@@GLIBC_2.2.5 (in /usr/lib64/libc-2.23.so)
+    n1: 4096 0x522E283: _IO_file_xsputn@@GLIBC_2.2.5 (in /usr/lib64/libc-2.23.so)
+     n1: 4096 0x5223894: fwrite (in /usr/lib64/libc-2.23.so)
+      n1: 4096 0x400868: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:104)
+       n0: 4096 0x4007BC: main (bitmap.C:68)
+ n1: 4200 0x4008BD: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:109)
+  n0: 4200 0x4007BC: main (bitmap.C:68)
+ n0: 1104 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=1861112
+mem_heap_B=361904
+mem_heap_extra_B=2360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1890272
+mem_heap_B=332984
+mem_heap_extra_B=2120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1919432
+mem_heap_B=304064
+mem_heap_extra_B=1880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1948592
+mem_heap_B=275144
+mem_heap_extra_B=1640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1977752
+mem_heap_B=246224
+mem_heap_extra_B=1400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=2006912
+mem_heap_B=217304
+mem_heap_extra_B=1160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2036072
+mem_heap_B=188384
+mem_heap_extra_B=920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=2065232
+mem_heap_B=159464
+mem_heap_extra_B=680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=2094392
+mem_heap_B=130544
+mem_heap_extra_B=440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=2123552
+mem_heap_B=101624
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=detailed
+n6: 101624 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAA5E: ??? (in /usr/lib64/libstdc++.so.6.0.22)
+  n1: 72704 0x40100D8: call_init.part.0 (in /usr/lib64/ld-2.23.so)
+   n1: 72704 0x40101E9: _dl_init (in /usr/lib64/ld-2.23.so)
+    n0: 72704 0x4000C38: ??? (in /usr/lib64/ld-2.23.so)
+ n1: 15424 0x40092A: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:118)
+  n0: 15424 0x4007BC: main (bitmap.C:68)
+ n1: 8192 0x5222353: _IO_file_doallocate (in /usr/lib64/libc-2.23.so)
+  n2: 8192 0x52304F2: _IO_doallocbuf (in /usr/lib64/libc-2.23.so)
+   n1: 4096 0x522E09A: _IO_file_xsgetn (in /usr/lib64/libc-2.23.so)
+    n2: 4096 0x5223367: fread (in /usr/lib64/libc-2.23.so)
+     n1: 4096 0x400848: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:103)
+      n0: 4096 0x4007BC: main (bitmap.C:68)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n1: 4096 0x522F846: _IO_file_overflow@@GLIBC_2.2.5 (in /usr/lib64/libc-2.23.so)
+    n1: 4096 0x522E283: _IO_file_xsputn@@GLIBC_2.2.5 (in /usr/lib64/libc-2.23.so)
+     n1: 4096 0x5223894: fwrite (in /usr/lib64/libc-2.23.so)
+      n1: 4096 0x400868: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:104)
+       n0: 4096 0x4007BC: main (bitmap.C:68)
+ n1: 4200 0x4008BD: steganographyEncrypt(char const*, char const*, char const*) (bitmap.C:109)
+  n0: 4200 0x4007BC: main (bitmap.C:68)
+ n1: 1104 0x5222E2B: __fopen_internal (in /usr/lib64/libc-2.23.so)
+  n0: 1104 in 3 places, all below massif's threshold (1.00%)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=2154256
+mem_heap_B=82656
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=2183472
+mem_heap_B=81552
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=2260856
+mem_heap_B=4200
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
